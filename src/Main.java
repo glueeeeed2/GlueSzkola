@@ -12,5 +12,13 @@ public class Main {
 
         System.out.println(student);
         System.out.println(student1);
+
+
+        Preceptor teacher = new Preceptor("Joanna", "Kowalska", Subject.MATH);
+
+        Classroom classroom = new Classroom("2pt", teacher);
+        classroom.addStudent(student1);
+        classroom.showAllInfoAboutClass();
+
     }
 }
