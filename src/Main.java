@@ -20,5 +20,7 @@ public class Main {
         classroom.addStudent(student1);
         classroom.showAllInfoAboutClass();
 
+        School mechanik = School.getSchool("Zespol Szkol Politechnicznych");
+
     }
 }
